@@ -1,7 +1,11 @@
 const Navbar = () => {
     return (
         <div>
-            this is navbar
+            <div>
+                <p className="text-white bg-[#233A95]">
+                    Due to the COVID 19 epidemic, orders may be processed with a slight delay
+                </p>
+            </div>
         </div>
     );
 };
