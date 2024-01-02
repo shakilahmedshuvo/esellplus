@@ -6,12 +6,12 @@ const Navbar = () => {
         <div>
 
             <>
-                <p className="text-white bg-[#233A95] text-center py-2 text-xs  ">
+                <p className="text-white bg-[#233A95] text-center py-2 text-xs px-6 lg:px-0">
                     Due to the <span className="font-bold">COVID 19</span> epidemic, orders may be processed with a slight delay
                 </p>
             </>
 
-            <div className="border-b-2 border-gray-200">
+            <div className="border-b-2 border-gray-200 hidden lg:block">
                 <div className="max-w-7xl mx-auto grid grid-cols-12">
 
                     <div className="col-span-4 flex justify-between text-sm pr-28 text-gray-600 items-center">
