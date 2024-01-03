@@ -1,6 +1,7 @@
 import TopNavbar from "./TopNavbar";
 import logo from "../../../../public/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
+import { RiSearchLine } from "react-icons/ri";
 
 const Navbar = () => {
     return (
@@ -37,39 +38,56 @@ const Navbar = () => {
 
 
                 {/* drop down section start */}
-                    <div className="dropdown w-full h-fit col-span-2 border rounded-md mt-4">
-                        <div
-                            tabIndex={0}
-                            role="button"
-                            className="flex items-center justify-between px-5 py-3">
+                <div className="dropdown w-full h-fit col-span-2 border rounded-md mt-4 border-gray-300">
+                    <div
+                        tabIndex={0}
+                        role="button"
+                        className="flex items-center justify-between px-5 py-3">
 
-                            <div>
-                                <p className="text-xs text-gray-300">
-                                    Your Location
-                                </p>
-                                <h2 className="text-[#223994] font-medium">
-                                    Your Location
-                                </h2>
-                            </div>
-                            <IoIosArrowDown className="text-xl" />
-
+                        <div>
+                            <p className="text-xs text-gray-300">
+                                Your Location
+                            </p>
+                            <h2 className="text-[#223994] font-medium">
+                                Select a Location
+                            </h2>
                         </div>
-                        <ul
-                            tabIndex={0}
-                            className="dropdown-content z-[1] menu p-2 shadow bg-gray-50 rounded-box w-52 font-medium">
-                            <li><a>Dhaka</a></li>
-                            <li><a>Gazipur</a></li>
-                            <li><a>Norshindi</a></li>
-                            <li><a>Sylhet</a></li>
-                            <li><a>Noakhali</a></li>
-                            <li><a>Borishal</a></li>
-                        </ul>
+                        <IoIosArrowDown className="text-xl" />
+
                     </div>
+                    <ul
+                        tabIndex={0}
+                        className="dropdown-content z-[1] menu p-2 shadow bg-gray-50 rounded-box w-52 font-medium">
+                        <li><a>Dhaka</a></li>
+                        <li><a>Gazipur</a></li>
+                        <li><a>Norshindi</a></li>
+                        <li><a>Sylhet</a></li>
+                        <li><a>Noakhali</a></li>
+                        <li><a>Borishal</a></li>
+                    </ul>
                 </div>
                 {/* drop down section end */}
 
-            </div>
+                {/* input section start */}
+                <div className="col-span-6">
+                    <form
+                        className="grid grid-cols-12 ms-10 bg-[#F3F4F7] mt-4 rounded-md">
+                        <input
+                            className="w-full bg-[#F3F4F7] py-5 ps-10 col-span-11 focus:outline-none"
+                            placeholder="Search for products"
+                            name="search"
+                            type="text" />
 
+                        <button>
+                            <RiSearchLine className="text-2xl text-[#3E445A]" />
+                        </button>
+
+                    </form>
+                </div>
+                {/* input section end */}
+
+            </div>
+        </div>
     );
 };
 
