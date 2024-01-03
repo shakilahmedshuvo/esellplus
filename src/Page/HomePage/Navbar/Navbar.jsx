@@ -2,6 +2,9 @@ import TopNavbar from "./TopNavbar";
 import logo from "../../../../public/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiSearchLine } from "react-icons/ri";
+import { LuUser2 } from "react-icons/lu";
+
+
 
 const Navbar = () => {
     return (
@@ -85,6 +88,30 @@ const Navbar = () => {
                     </form>
                 </div>
                 {/* input section end */}
+
+                {/* user section start */}
+                <div className="col-span-2 flex items-center">
+
+                    {/* user profile section start */}
+                    <div className="mt-7 m-6">
+                        <LuUser2 className="text-4xl p-2 border-2 rounded-full" />
+                    </div>
+                    {/* user profile section end */}
+
+                    {/* total dollar count section start */}
+                    <div className="text-gray-600 font-medium text-lg">
+                        <p>$0.00</p>
+                    </div>
+                    {/* total dollar count section end */}
+
+                    {/* user cart section start */}
+                    <div>
+
+                    </div>
+                    {/* user cart section end */}
+
+                </div>
+                {/* user section end */}
 
             </div>
         </div>
