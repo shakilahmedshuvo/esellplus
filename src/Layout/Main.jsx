@@ -4,11 +4,11 @@ import Footer from "../Page/HomePage/Footer/Footer";
 
 const Main = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Outlet />
             <Footer />
-        </div>
+        </>
     );
 };
 
