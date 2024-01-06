@@ -88,7 +88,7 @@ const BottomNavbar = () => {
 
                         <ul
                             tabIndex={0}
-                            className="dropdown-content z-[1] p-2 w-52 border border-gray-100 rounded-sm font-medium">
+                            className="dropdown-content z-30 p-2 w-52 border border-gray-100 rounded-sm font-medium bg-white mt-1">
 
                             <li
                                 className="text-sm my-4 px-4 hover:text-[#2BBEF9] duration-100">
@@ -128,7 +128,7 @@ const BottomNavbar = () => {
 
                         <ul
                             tabIndex={0}
-                            className="dropdown-content z-[1] p-2 w-[800px] border border-gray-100 rounded-sm grid grid-cols-3 px-6 pt-6 font-medium text-gray-600">
+                            className="dropdown-content z-30 p-2 w-[800px] border border-gray-100 rounded-sm grid grid-cols-3 px-6 pt-6 font-medium text-gray-600 bg-white mt-1">
 
                             <div className="grid">
                                 <h2 className="font-semibold text-[#233a95] hover:text-[#66D0FB] duration-100">

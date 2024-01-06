@@ -54,7 +54,7 @@ const MiddleNavbar = () => {
                 </div>
                 <ul
                     tabIndex={0}
-                    className="dropdown-content z-[1] menu p-2 shadow bg-gray-50 rounded-box w-52 font-medium">
+                    className="dropdown-content z-10 menu p-2 shadow bg-gray-50 rounded-sm w-52 font-medium mt-1">
                     <li><a>Dhaka</a></li>
                     <li><a>Gazipur</a></li>
                     <li><a>Norshindi</a></li>

@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "./BannerImage/bannerOne.jpg",
+        "name": "A different kind of fashion store",
+        "shortDes": "Only this week. Don't miss..",
+        "price": "$7.99",
+        "offer": "-20%"
+    },
+    {
+        "id": 2,
+        "img": "./BannerImage/BannerTwo.jpeg",
+        "name": "Quality is more Guaranteed!",
+        "shortDes": "Only this week. Don't miss..",
+        "price": "$14.35",
+        "offer": "-40%"
+    },
+    {
+        "id": 3,
+        "img": "./BannerImage/BannerThree.jpeg",
+        "name": "A different kind of fashion store",
+        "shortDes": "Only this week. Don't miss..",
+        "price": "$7.99",
+        "offer": "-20%"
+    },
+    {
+        "id": 4,
+        "img": "./BannerImage/BannerFour.jpg",
+        "name": "Quality is more Guaranteed!",
+        "shortDes": "Only this week. Don't miss..",
+        "price": "$14.35",
+        "offer": "-40%"
+    },
+    {
+        "id": 5,
+        "img": "./BannerImage/bannerFive.jpg",
+        "name": "A different kind of fashion store",
+        "shortDes": "Only this week. Don't miss..",
+        "price": "$7.99",
+        "offer": "-20%"
+    }
+]
