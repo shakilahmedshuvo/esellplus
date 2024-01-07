@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Category = () => {
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-12 mt-28">
+        <div className="max-w-7xl mx-auto grid grid-cols-12 mt-20">
 
             <Link
                 to={"/"}
