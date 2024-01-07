@@ -28,7 +28,7 @@ const BottomNavbar = () => {
                     isOpen &&
                     (
                         <div
-                            className="absolute py-4 px-8 w-72 bg-white border border-gray-100 rounded-sm z-10 text-gray-800 font-normal text-sm grid">
+                            className="absolute py-4 px-8 w-72 bg-white border border-gray-100 rounded-sm z-30 text-gray-800 font-normal text-sm grid">
 
                             <Link to={"/"}
                                 className="my-2">

@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { useEffect, useState } from 'react';
 import SingleBanner from './SingleBanner';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     const [bannerSlider, setBannerSlider] = useState([]);
@@ -15,7 +16,9 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className='hidden lg:block'>
+        <Link
+            to={"/"}
+            className='hidden lg:block'>
             <>
                 <Swiper
                     spaceBetween={30}
@@ -42,7 +45,7 @@ const Banner = () => {
                     </>
                 </Swiper>
             </>
-        </div>
+        </Link>
     );
 };
 
