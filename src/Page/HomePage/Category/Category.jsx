@@ -7,12 +7,15 @@ import jacket from "../../../../public/category/jacket.png";
 import snakers from "../../../../public/category/snekers.png";
 import watch from "../../../../public/category/watch.png";
 import belt from "../../../../public/category/belt.png";
+import { Link } from "react-router-dom";
 
 const Category = () => {
     return (
         <div className="max-w-7xl mx-auto grid grid-cols-12 mt-28">
 
-            <div className="col-span-2 border py-12 px-6 rounded-s-md">
+            <Link
+                to={"/"}
+                className="col-span-2 border py-12 px-6 rounded-s-md">
                 <div className="flex items-center justify-center">
                     <img
                         className="w-[90%]"
@@ -29,13 +32,15 @@ const Category = () => {
                     </p>
                 </div>
 
-            </div>
+            </Link>
 
             <div className="col-span-10 grid grid-cols-4">
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
 
                         <img
                             src={tShirt}
@@ -50,9 +55,11 @@ const Category = () => {
                             </p>
                         </div>
 
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
 
                         <img
                             src={jeans}
@@ -66,12 +73,14 @@ const Category = () => {
                             </p>
                         </div>
 
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={blezer}
                             alt="" />
@@ -83,9 +92,11 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={hoddie}
                             alt="" />
@@ -97,12 +108,14 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={jacket}
                             alt="" />
@@ -114,9 +127,11 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={snakers}
                             alt="" />
@@ -128,12 +143,14 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36 rounded-tr-md">
                         <img
                             src={watch}
                             alt="" />
@@ -145,9 +162,11 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
+                    <Link
+                        to={"/"}
+                        className="grid grid-cols-3 px-6 pt-7 border h-36 rounded-br-md">
                         <img
                             src={belt}
                             alt="" />
@@ -159,7 +178,7 @@ const Category = () => {
                                 100+ items
                             </p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
 
             </div>
