@@ -31,12 +31,14 @@ const Banner = () => {
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper">
                     <>
-                        {bannerSlider.map((slider) => (
-                            <SwiperSlide
-                                key={slider.id}>
-                                <SingleBanner slider={slider} />
-                            </SwiperSlide>
-                        ))}
+                        {
+                            bannerSlider.map((slider) => (
+                                <SwiperSlide
+                                    key={slider.id}>
+                                    <SingleBanner slider={slider} />
+                                </SwiperSlide>
+                            ))
+                        }
                     </>
                 </Swiper>
             </>
