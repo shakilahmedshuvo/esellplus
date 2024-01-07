@@ -20,11 +20,13 @@ const Category = () => {
                         alt="" />
                 </div>
 
-                <div className="text-center mt-1">
-                    <p className="font-medium">
+                <div className="col-span-2 cursor-pointer text-center mt-1">
+                    <p className="font-medium text-gray-700">
                         Mens Shirt
                     </p>
-                    <p className="text-gray-400 text-xs">50+ items</p>
+                    <p className="text-gray-400 text-xs">
+                        100+ items
+                    </p>
                 </div>
 
             </div>
@@ -33,31 +35,35 @@ const Category = () => {
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
 
                         <img
                             src={tShirt}
                             alt="" />
 
-                        <div className="col-span-2">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Mens T-Shirt
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
 
                     </div>
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
 
                         <img
                             src={jeans}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Mens Jeans
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
 
                     </div>
@@ -65,81 +71,93 @@ const Category = () => {
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={blezer}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Mens Blazer
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={hoddie}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Mens Hoodie
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={jacket}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Mens Jacket
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={snakers}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Shoe & Sneakers
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
                 </div>
 
                 <div className="grid grid-row-2">
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={watch}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Watch & Accessories
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-3 px-4 pt-12 border h-36">
+                    <div className="grid grid-cols-3 px-6 pt-7 border h-36">
                         <img
                             src={belt}
                             alt="" />
-                        <div className="text-center">
-                            <p className="font-medium">
-                                Mens Shirt
+                        <div className="col-span-2 cursor-pointer ms-5 mt-1">
+                            <p className="font-medium text-gray-700">
+                                Luxury Accessories
                             </p>
-                            <p className="text-gray-400 text-xs">50+ items</p>
+                            <p className="text-gray-400 text-xs">
+                                100+ items
+                            </p>
                         </div>
                     </div>
                 </div>
