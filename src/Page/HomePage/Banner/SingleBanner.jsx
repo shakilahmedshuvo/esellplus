@@ -46,6 +46,7 @@ const SingleBanner = ({ slider }) => {
 
             </div>
 
+
         </div>
     );
 };

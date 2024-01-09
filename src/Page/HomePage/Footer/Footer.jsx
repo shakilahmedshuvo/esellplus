@@ -1,8 +1,14 @@
+import MainFooter from "./MainFooter";
+import NewsFooter from "./NewsFooter";
+import SubFooter from "./SubFooter";
+
 const Footer = () => {
     return (
-        <div>
-            this is footer
-        </div>
+        <>
+            <NewsFooter />
+            <MainFooter />
+            <SubFooter />
+        </>
     );
 };
 
