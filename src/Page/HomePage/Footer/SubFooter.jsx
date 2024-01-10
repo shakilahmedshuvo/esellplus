@@ -1,10 +1,15 @@
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
+import android from "../../../../public/android.png";
+import ios from "../../../../public/ios.png";
+import { FaFacebookF } from "react-icons/fa";
+import { SiTwitter } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 
 const SubFooter = () => {
     return (
-        <div className="max-w-7xl mx-auto pt-5 flex justify-between">
+        <div className="max-w-7xl mx-auto pt-5 grid grid-cols-12">
 
-            <div className="flex items-center">
+            <div className="flex items-center col-span-2">
                 <div
                     className="text-2xl rounded-full border p-2 w-fit flex items-center justify-center">
                     <LiaPhoneVolumeSolid />
@@ -21,14 +26,46 @@ const SubFooter = () => {
             </div>
 
 
-            <div className="grid grid-cols-3">
-                <div>
-                    <h2 className="font-medium pt-2">
+            <div className="col-span-10 flex items-center justify-end">
+
+
+                <div className="mr-7">
+                    <h2 className="font-medium pt-2 text-sm text-end">
                         Download App on Mobile :
                     </h2>
-                    <p className="text-xs text-gray-400">
+                    <p className="text-xs text-gray-400 text-end">
                         15% discount on your first purchase
                     </p>
+                </div>
+
+
+                <div className="w-[25%] flex items-center">
+                    <div>
+                        <img
+                            src={android}
+                            alt="" />
+                    </div>
+                    <div className="ms-2">
+                        <img
+                            src={ios}
+                            alt="" />
+                    </div>
+                </div>
+
+
+                <div
+                    className="text-[#233A95] flex items-center text-lg ms-5">
+                    <div className="p-2 rounded-full border ms-2">
+                        <FaFacebookF />
+                    </div>
+
+                    <div className="p-2 rounded-full border ms-2">
+                        <SiTwitter />
+                    </div>
+
+                    <div className="p-2 rounded-full border ms-2">
+                        <BsInstagram />
+                    </div>
                 </div>
 
             </div>
