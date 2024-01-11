@@ -14,10 +14,10 @@ const NewsFooter = () => {
             </>
 
             <div className="bg-[#F7F8FD]">
-                <div className="max-w-7xl mx-auto grid grid-cols-4 my-6">
+                <div className="max-w-7xl mx-auto grid grid-cols-4 py-6">
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
                         <p className="text-2xl mr-3">
                             <FaAirFreshener />
                         </p>
@@ -25,7 +25,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
                         <p className="text-2xl mr-3">
                             <FaTruckFast />
                         </p>
@@ -33,7 +33,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-1  border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
                         <p className="text-2xl mr-3">
                             <LuBadgePercent />
                         </p>
@@ -41,7 +41,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-1">
+                        className="flex items-center justify-center text-gray-600 py-3">
                         <p className="text-2xl mr-3">
                             <LuBadgeDollarSign />
                         </p>
@@ -51,8 +51,8 @@ const NewsFooter = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto">
-                <hr className="my-5 border border-gray-100" />
+            <div className="bg-[#F7F8FD] pt-5">
+                <hr className="border max-w-7xl mx-auto" />
             </div>
         </div>
     );

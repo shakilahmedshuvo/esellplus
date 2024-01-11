@@ -11,7 +11,7 @@ import Visa from "./Icon/Visa";
 
 const SubFooter = () => {
     return (
-        <div className="max-w-7xl mx-auto pt-5">
+        <div className="max-w-7xl mx-auto pt-8">
 
             <div className="grid grid-cols-12">
                 <div className="flex items-center col-span-2">
