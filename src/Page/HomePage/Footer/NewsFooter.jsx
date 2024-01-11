@@ -13,40 +13,42 @@ const NewsFooter = () => {
                     alt="" />
             </>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-4 my-6 bg-[#F7F8FD]">
+            <div className="bg-[#F7F8FD]">
+                <div className="max-w-7xl mx-auto grid grid-cols-4 my-6">
 
-                <div
-                    className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
-                    <p className="text-2xl mr-3">
-                        <FaAirFreshener />
-                    </p>
-                    <p>Everyday Quality Products</p>
+                    <div
+                        className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
+                        <p className="text-2xl mr-3">
+                            <FaAirFreshener />
+                        </p>
+                        <p>Everyday Quality Products</p>
+                    </div>
+
+                    <div
+                        className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
+                        <p className="text-2xl mr-3">
+                            <FaTruckFast />
+                        </p>
+                        <p>Free Delivery For Order Over 70$</p>
+                    </div>
+
+                    <div
+                        className="flex items-center justify-center text-gray-600 py-1  border-r border-gray-200">
+                        <p className="text-2xl mr-3">
+                            <LuBadgePercent />
+                        </p>
+                        <p>Daily Mega Discounts</p>
+                    </div>
+
+                    <div
+                        className="flex items-center justify-center text-gray-600 py-1">
+                        <p className="text-2xl mr-3">
+                            <LuBadgeDollarSign />
+                        </p>
+                        <p>Best Price On The Market</p>
+                    </div>
+
                 </div>
-
-                <div
-                    className="flex items-center justify-center text-gray-600 py-1 border-r border-gray-200">
-                    <p className="text-2xl mr-3">
-                        <FaTruckFast />
-                    </p>
-                    <p>Free Delivery For Order Over 70$</p>
-                </div>
-
-                <div
-                    className="flex items-center justify-center text-gray-600 py-1  border-r border-gray-200">
-                    <p className="text-2xl mr-3">
-                        <LuBadgePercent />
-                    </p>
-                    <p>Daily Mega Discounts</p>
-                </div>
-
-                <div
-                    className="flex items-center justify-center text-gray-600 py-1">
-                    <p className="text-2xl mr-3">
-                        <LuBadgeDollarSign />
-                    </p>
-                    <p>Best Price On The Market</p>
-                </div>
-
             </div>
 
             <div className="max-w-7xl mx-auto">

@@ -1,7 +1,9 @@
 const MainFooter = () => {
     return (
-        <div>
-            
+        <div className="bg-[#F7F8FD]">
+            <div className="max-w-7xl  mx-auto">
+
+            </div>
         </div>
     );
 };

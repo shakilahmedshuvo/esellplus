@@ -14,8 +14,8 @@ const SubFooter = () => {
         <div className="max-w-7xl mx-auto pt-5">
 
             <div className="grid grid-cols-12">
-
                 <div className="flex items-center col-span-2">
+
                     <div
                         className="text-2xl rounded-full border p-2 w-fit flex items-center justify-center">
                         <LiaPhoneVolumeSolid />
@@ -30,7 +30,6 @@ const SubFooter = () => {
                         </p>
                     </div>
                 </div>
-
 
                 <div className="col-span-10 flex items-center justify-end">
 
