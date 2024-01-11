@@ -1,6 +1,7 @@
 const Visa = () => {
     return (
         <svg
+            className="cursor-pointer"
             xmlns="http://www.w3.org/2000/svg"
             width="30"
             height="30"

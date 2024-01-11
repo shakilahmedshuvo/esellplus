@@ -8,6 +8,7 @@ import Stripe from "./Icon/Stripe";
 import Paypal from "./Icon/Paypal";
 import Master from "./Icon/Master";
 import Visa from "./Icon/Visa";
+import { Link } from "react-router-dom";
 
 const SubFooter = () => {
     return (
@@ -43,31 +44,36 @@ const SubFooter = () => {
                     </div>
 
                     <div className="w-[25%] flex items-center">
-                        <div>
+                        <Link
+                            to={"/"}>
                             <img
                                 src={android}
                                 alt="" />
-                        </div>
-                        <div className="ms-2">
+                        </Link>
+                        <Link
+                            to={"/"}
+                            className="ms-2">
                             <img
                                 src={ios}
                                 alt="" />
-                        </div>
+                        </Link>
                     </div>
 
                     <div
                         className="text-[#233A95] flex items-center text-lg ms-5">
-                        <div className="p-2 rounded-full border ms-2">
+
+                        <div className="p-2 rounded-full border ms-2 cursor-pointer">
                             <FaFacebookF />
                         </div>
 
-                        <div className="p-2 rounded-full border ms-2">
+                        <div className="p-2 rounded-full border ms-2 cursor-pointer">
                             <SiTwitter />
                         </div>
 
-                        <div className="p-2 rounded-full border ms-2">
+                        <div className="p-2 rounded-full border ms-2 cursor-pointer">
                             <BsInstagram />
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -82,15 +88,15 @@ const SubFooter = () => {
 
                 <div className="flex items-center justify-end text-gray-400 text-xs gap-3">
 
-                    <p>
+                    <p className="hover:underline cursor-pointer">
                         Privacy Policy
                     </p>
 
-                    <p>
+                    <p className="hover:underline cursor-pointer">
                         Terms and Conditions
                     </p>
 
-                    <p>
+                    <p className="hover:underline cursor-pointer">
                         Cookie
                     </p>
 

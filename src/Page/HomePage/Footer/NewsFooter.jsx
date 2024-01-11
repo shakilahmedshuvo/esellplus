@@ -17,7 +17,7 @@ const NewsFooter = () => {
                 <div className="max-w-7xl mx-auto grid grid-cols-4 py-6">
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200 cursor-pointer">
                         <p className="text-2xl mr-3">
                             <FaAirFreshener />
                         </p>
@@ -25,7 +25,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200 cursor-pointer">
                         <p className="text-2xl mr-3">
                             <FaTruckFast />
                         </p>
@@ -33,7 +33,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200">
+                        className="flex items-center justify-center text-gray-600 py-3 border-r border-gray-200 cursor-pointer">
                         <p className="text-2xl mr-3">
                             <LuBadgePercent />
                         </p>
@@ -41,7 +41,7 @@ const NewsFooter = () => {
                     </div>
 
                     <div
-                        className="flex items-center justify-center text-gray-600 py-3">
+                        className="flex items-center justify-center text-gray-600 py-3 cursor-pointer">
                         <p className="text-2xl mr-3">
                             <LuBadgeDollarSign />
                         </p>
@@ -52,7 +52,7 @@ const NewsFooter = () => {
             </div>
 
             <div className="bg-[#F7F8FD] pt-5">
-                <hr className="border max-w-7xl mx-auto" />
+                <hr className="border border-gray-200 max-w-7xl mx-auto" />
             </div>
         </div>
     );
