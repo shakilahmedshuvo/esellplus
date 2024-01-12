@@ -1,0 +1,337 @@
+[
+    {
+        "id": 1,
+        "percentage": 20,
+        "recommended": true,
+        "img": "https://example.com/image1.jpg",
+        "name": "Stylish T-shirt",
+        "inStock": true,
+        "beforePrice": 29.99,
+        "price": 24.99,
+        "rating": [
+            0,
+            1,
+            3,
+            2,
+            4
+        ]
+    },
+    {
+        "id": 2,
+        "percentage": 15,
+        "recommended": false,
+        "img": "https://example.com/image2.jpg",
+        "name": "Casual Jeans",
+        "inStock": true,
+        "beforePrice": 49.99,
+        "price": 42.50,
+        "rating": [
+            2,
+            3,
+            1,
+            4,
+            0
+        ]
+    },
+    {
+        "id": 3,
+        "percentage": 30,
+        "recommended": true,
+        "img": "https://example.com/image3.jpg",
+        "name": "Elegant Dress",
+        "inStock": false,
+        "beforePrice": 79.99,
+        "price": 55.99,
+        "rating": [
+            1,
+            0,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id": 4,
+        "percentage": 25,
+        "recommended": true,
+        "img": "https://example.com/image4.jpg",
+        "name": "Sporty Sneakers",
+        "inStock": true,
+        "beforePrice": 59.99,
+        "price": 44.99,
+        "rating": [
+            2,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 5,
+        "percentage": 10,
+        "recommended": false,
+        "img": "https://example.com/image5.jpg",
+        "name": "Cozy Hoodie",
+        "inStock": true,
+        "beforePrice": 45.99,
+        "price": 35.99,
+        "rating": [
+            0,
+            2,
+            1
+        ]
+    },
+    {
+        "id": 6,
+        "percentage": 18,
+        "recommended": true,
+        "img": "https://example.com/image6.jpg",
+        "name": "Classic Sunglasses",
+        "inStock": true,
+        "beforePrice": 25.99,
+        "price": 20.50,
+        "rating": [
+            1,
+            0
+        ]
+    },
+    {
+        "id": 7,
+        "percentage": 22,
+        "recommended": true,
+        "img": "https://example.com/image7.jpg",
+        "name": "Classic Belt",
+        "inStock": true,
+        "beforePrice": 55.99,
+        "price": 44.99,
+        "rating": [
+            4,
+            2,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 8,
+        "percentage": 15,
+        "recommended": false,
+        "img": "https://example.com/image8.jpg",
+        "name": "Formal Blouse",
+        "inStock": true,
+        "beforePrice": 40.99,
+        "price": 32.99,
+        "rating": [
+            3,
+            1,
+            0,
+            2
+        ]
+    },
+    {
+        "id": 9,
+        "percentage": 28,
+        "recommended": true,
+        "img": "https://example.com/image9.jpg",
+        "name": "Leather Boots",
+        "inStock": true,
+        "beforePrice": 75.99,
+        "price": 60.99,
+        "rating": [
+            2,
+            4,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 10,
+        "percentage": 18,
+        "recommended": true,
+        "img": "https://example.com/image10.jpg",
+        "name": "Denim Jacket",
+        "inStock": true,
+        "beforePrice": 60.99,
+        "price": 48.99,
+        "rating": [
+            0,
+            2,
+            1
+        ]
+    },
+    {
+        "id": 11,
+        "percentage": 25,
+        "recommended": false,
+        "img": "https://example.com/image11.jpg",
+        "name": "Striped Sweater",
+        "inStock": true,
+        "beforePrice": 45.99,
+        "price": 36.99,
+        "rating": [
+            1,
+            3,
+            2,
+            0
+        ]
+    },
+    {
+        "id": 12,
+        "percentage": 30,
+        "recommended": true,
+        "img": "https://example.com/image12.jpg",
+        "name": "Printed Scarf",
+        "inStock": true,
+        "beforePrice": 20.99,
+        "price": 16.99,
+        "rating": [
+            1,
+            0
+        ]
+    },
+    {
+        "id": 13,
+        "percentage": 15,
+        "recommended": false,
+        "img": "https://example.com/image13.jpg",
+        "name": "Casual Sneakers",
+        "inStock": true,
+        "beforePrice": 35.99,
+        "price": 28.99,
+        "rating": [
+            4,
+            2,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 14,
+        "percentage": 20,
+        "recommended": true,
+        "img": "https://example.com/image14.jpg",
+        "name": "Ruffled Blouse",
+        "inStock": true,
+        "beforePrice": 50.99,
+        "price": 40.99,
+        "rating": [
+            3,
+            1,
+            4,
+            0,
+            2
+        ]
+    },
+    {
+        "id": 15,
+        "percentage": 28,
+        "recommended": true,
+        "img": "https://example.com/image15.jpg",
+        "name": "Leather Belt",
+        "inStock": true,
+        "beforePrice": 30.99,
+        "price": 24.99,
+        "rating": [
+            2,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 16,
+        "percentage": 22,
+        "recommended": true,
+        "img": "https://example.com/image16.jpg",
+        "name": "Cropped Pants",
+        "inStock": true,
+        "beforePrice": 45.99,
+        "price": 36.99,
+        "rating": [
+            2,
+            3,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 17,
+        "percentage": 15,
+        "recommended": false,
+        "img": "https://example.com/image17.jpg",
+        "name": "Strappy Sandals",
+        "inStock": true,
+        "beforePrice": 30.99,
+        "price": 24.99,
+        "rating": [
+            3,
+            1,
+            0,
+            2
+        ]
+    },
+    {
+        "id": 18,
+        "percentage": 28,
+        "recommended": true,
+        "img": "https://example.com/image18.jpg",
+        "name": "Summer Dress",
+        "inStock": true,
+        "beforePrice": 55.99,
+        "price": 44.99,
+        "rating": [
+            2,
+            1,
+            0
+        ]
+    },
+    {
+        "id": 19,
+        "percentage": 18,
+        "recommended": true,
+        "img": "https://example.com/image19.jpg",
+        "name": "Printed Skirt",
+        "inStock": true,
+        "beforePrice": 40.99,
+        "price": 32.99,
+        "rating": [
+            0,
+            2,
+            1
+        ]
+    },
+    {
+        "id": 20,
+        "percentage": 25,
+        "recommended": false,
+        "img": "https://example.com/image20.jpg",
+        "name": "Classic Loafers",
+        "inStock": true,
+        "beforePrice": 50.99,
+        "price": 40.99,
+        "rating": [
+            1,
+            3,
+            2,
+            0
+        ]
+    },
+    {
+        "id": 21,
+        "percentage": 30,
+        "recommended": true,
+        "img": "https://example.com/image21.jpg",
+        "name": "Casual Backpack",
+        "inStock": true,
+        "beforePrice": 35.99,
+        "price": 28.99,
+        "rating": [
+            1,
+            3,
+            2,
+            0
+        ]
+    }
+]
