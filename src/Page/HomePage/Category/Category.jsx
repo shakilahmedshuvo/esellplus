@@ -1,12 +1,12 @@
-import shirt from "../../../../public/category/shirt.png";
-import tShirt from "../../../../public/category/t-shirt.png";
-import jeans from "../../../../public/category/jens.png";
-import blezer from "../../../../public/category/blezer.png";
-import hoddie from "../../../../public/category/hoddie.png";
-import jacket from "../../../../public/category/jacket.png";
-import snakers from "../../../../public/category/snekers.png";
-import watch from "../../../../public/category/watch.png";
-import belt from "../../../../public/category/belt.png";
+import shirt from "../../../assets/category/shirt.png";
+import tShirt from "../../../assets/category/t-shirt.png";
+import jeans from "../../../assets/category/jens.png";
+import blezer from "../../../assets/category/blezer.png";
+import hoddie from "../../../assets/category/hoddie.png";
+import jacket from "../../../assets/category/jacket.png";
+import snakers from "../../../assets/category/snekers.png";
+import watch from "../../../assets/category/watch.png";
+import belt from "../../../assets/category/belt.png";
 import { Link } from "react-router-dom";
 
 const Category = () => {

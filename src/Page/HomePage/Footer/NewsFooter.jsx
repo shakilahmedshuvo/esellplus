@@ -1,4 +1,4 @@
-import NewsFooterBg from "../../../../public/Footer/NewsFooter.png";
+import NewsFooterBg from "../../../assets/Footer/NewsFooter.png";
 import { FaAirFreshener } from "react-icons/fa";
 import { FaTruckFast } from "react-icons/fa6";
 import { LuBadgePercent, LuBadgeDollarSign } from "react-icons/lu";

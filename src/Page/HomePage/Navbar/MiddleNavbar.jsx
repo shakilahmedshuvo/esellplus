@@ -1,4 +1,4 @@
-import logo from "../../../../public/logo.png";
+import logo from "../../../assets/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiSearchLine } from "react-icons/ri";
 import { LuUser2 } from "react-icons/lu";

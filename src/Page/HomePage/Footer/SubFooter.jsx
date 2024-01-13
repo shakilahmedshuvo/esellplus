@@ -1,6 +1,6 @@
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
-import android from "../../../../public/android.png";
-import ios from "../../../../public/ios.png";
+import android from "../../../assets/android.png";
+import ios from "../../../assets/ios.png";
 import { FaFacebookF } from "react-icons/fa";
 import { SiTwitter } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
