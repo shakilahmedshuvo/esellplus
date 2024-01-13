@@ -11,7 +11,7 @@ const LeftDealOfTheWeek = () => {
 
     return (
         <div>
-            {/* {
+            {
                 product.map(item => (
                     <div key={item.id}>
                         <h2 >{item.name}</h2>
@@ -24,7 +24,7 @@ const LeftDealOfTheWeek = () => {
                         </p>
                     </div>
                 ))
-            } */}
+            }
         </div>
     );
 };
