@@ -3,7 +3,7 @@ import LeftDealOfTheWeek from "./LeftDealOfTheWeek";
 
 const DealOfTheWeek = () => {
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-12 mt-32">
             {/* right section div start */}
             <div className="col-span-4">
                 <RightDealOfTheWeek />
