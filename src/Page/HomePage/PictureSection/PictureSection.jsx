@@ -3,9 +3,9 @@ import pictureTwo from "../../../assets/pictureTwo.jpg";
 
 const PictureSection = () => {
     return (
-        <div className="max-w-7xl mx-auto grid grid-cols-2 my-8">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 my-8">
 
-            <div className="mr-5 relative">
+            <div className="lg:mr-5 relative">
                 <div>
                     <img
                         className="rounded-lg"
@@ -33,7 +33,7 @@ const PictureSection = () => {
                 </div>
             </div>
 
-            <div className="ms-5 relative">
+            <div className="lg:ms-5 relative">
                 <div>
                     <img
                         className="rounded-lg"

@@ -1,10 +1,10 @@
 const MainFooter = () => {
     return (
-        <div className="bg-[#F7F8FD] py-20">
-            <div className="max-w-7xl mx-auto grid grid-cols-5">
+        <div className="bg-[#F7F8FD] lg:py-20 py-4">
+            <div className="max-w-7xl mx-auto grid lg:grid-cols-5 grid-cols-2 px-7 lg:px-0">
 
                 <div>
-                    <h2 className="font-medium cursor-pointer">
+                    <h2 className="font-medium cursor-pointer mt-5 lg:mt-0">
                         FRUIT & VEGETABLES
                     </h2>
                     <div className="text-gray-500 text-xs space-y-3 mt-5">
@@ -33,7 +33,7 @@ const MainFooter = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium cursor-pointer">
+                    <h2 className="font-medium cursor-pointer mt-5 lg:mt-0">
                         BREAKFAST & DAIRY
                     </h2>
                     <div className="text-gray-500 text-xs space-y-3 mt-5">
@@ -65,7 +65,7 @@ const MainFooter = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium cursor-pointer">
+                    <h2 className="font-medium cursor-pointer mt-5 lg:mt-0">
                         MEAT & SEAFOOD
                     </h2>
                     <div className="text-gray-500 text-xs space-y-3 mt-5">
@@ -100,7 +100,7 @@ const MainFooter = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium cursor-pointer">
+                    <h2 className="font-medium cursor-pointer mt-5 lg:mt-0">
                         BEVERAGES
                     </h2>
                     <div className="text-gray-500 text-xs space-y-3 mt-5">
@@ -135,7 +135,7 @@ const MainFooter = () => {
                 </div>
 
                 <div>
-                    <h2 className="font-medium cursor-pointer">
+                    <h2 className="font-medium cursor-pointer mt-5 lg:mt-0">
                         BREADS & BAKERY
                     </h2>
                     <div className="text-gray-500 text-xs space-y-3 mt-5">
