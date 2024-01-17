@@ -23,13 +23,13 @@ const LeftDealOfTheWeek = () => {
                         {/* img section start */}
                         <div className="mx-5 mt-5">
                             <h2
-                                className="bg-[#2BBEF9] font-medium text-white text-center w-fit text-xs px-3 py-1 rounded-md">
+                                className="bg-[#2BBEF9] font-medium text-white text-center w-fit text-xs px-4 py-1 rounded-md">
                                 {item?.percentage}%
                             </h2>
 
-                            <div className="flex items-center justify-center">
+                            <div className="flex items-center justify-center h-[155px]">
                                 <img
-                                    className="w-[65%]"
+                                    className="w-[150px]"
                                     src={item?.img}
                                     alt="" />
                             </div>
@@ -37,7 +37,7 @@ const LeftDealOfTheWeek = () => {
 
                             <div className="relative">
                                 <h2
-                                    className={`${item.recommended ? 'absolute bottom-32 bg-[#71778E] font-medium w-fit text-[9px] text-white py-1 px-2 rounded-md' : ''}`}>
+                                    className={`${item.recommended ? 'absolute bottom-32 bg-[#71778E] font-medium w-fit text-[9.5px] text-white py-1 px-2 rounded-md' : ''}`}>
                                     {
                                         item.recommended ?
                                             'RECOMMENDED' : ''
