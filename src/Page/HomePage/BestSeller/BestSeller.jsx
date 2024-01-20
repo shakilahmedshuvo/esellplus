@@ -11,8 +11,8 @@ const BestSeller = () => {
 
     return (
         <div className="max-w-7xl mx-auto">
-            
-            
+
+            <div></div>
             <div className="grid grid-cols-5">
                 {/* map section start */}
                 {
