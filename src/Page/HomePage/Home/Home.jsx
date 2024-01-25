@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import BestSeller from "../BestSeller/BestSeller";
+import Blog from "../Blog/Blog";
 import Category from "../Category/Category";
 import DealOfTheWeek from "../DealOfTheWeek/DealOfTheWeek";
 import PictureSection from "../PictureSection/PictureSection";
@@ -16,6 +17,7 @@ const Home = () => {
             <BestSeller />
             <Save />
             <PictureSectionTwo />
+            <Blog />
         </>
     );
 };

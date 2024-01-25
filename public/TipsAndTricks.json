@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "blogImg": "./Blog/blog-1.jpg",
+        "blogName": "But I must explain to you how all this mistaken idea",
+        "blogSubName": "TIPS & TRICKS",
+        "BlogDate": "3 May 2021"
+    },
+    {
+        "id": 2,
+        "blogImg": "./Blog/blog-2.jpg",
+        "blogName": "The Problem With Typefaces on the Web",
+        "blogSubName": "GROCERY",
+        "BlogDate": "2 May 2021"
+    },
+    {
+        "id": 3,
+        "blogImg": "./Blog/blog-3.jpg",
+        "blogName": "English Breakfast Tea With Tasty Donut Desserts",
+        "blogSubName": "GROCERY",
+        "BlogDate": "1 May 2021"
+    }
+]

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const PictureSectionTwo = () => {
+    // picture data load
     const [item, setItem] = useState([]);
     useEffect(() => {
         fetch('Picture.json')
@@ -49,7 +50,6 @@ const PictureSectionTwo = () => {
                 ))
             }
             {/* map section end */}
-
         </div>
     );
 };
