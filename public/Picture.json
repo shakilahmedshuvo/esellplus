@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "./Picture/egg.jpg",
+        "name": "Natural Eggs",
+        "des": "Eat one every day",
+        "discount": 20
+    },
+    {
+        "id": 2,
+        "img": "./Picture/tea.jpg",
+        "name": "Taste the best",
+        "des": "Shine the morning",
+        "discount": 40
+    },
+    {
+        "id": 3,
+        "img": "./Picture/bread.jpg",
+        "name": "Ditch The Junk",
+        "des": "Breakfast made better",
+        "discount": 30
+    }
+]

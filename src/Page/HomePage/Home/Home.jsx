@@ -3,6 +3,7 @@ import BestSeller from "../BestSeller/BestSeller";
 import Category from "../Category/Category";
 import DealOfTheWeek from "../DealOfTheWeek/DealOfTheWeek";
 import PictureSection from "../PictureSection/PictureSection";
+import PictureSectionTwo from "../PictureSection/PictureSectionTwo";
 import Save from "../Save/Save";
 
 const Home = () => {
@@ -12,8 +13,9 @@ const Home = () => {
             <Category />
             <DealOfTheWeek />
             <PictureSection />
-            < BestSeller />
+            <BestSeller />
             <Save />
+            <PictureSectionTwo />
         </>
     );
 };
