@@ -25,8 +25,17 @@ const Blog = () => {
 
                         <div>
 
-                            <div>
+                            <p className="mt-5 mb-2 text-[#9B9BB4] text-sm font-medium">
+                                {item?.blogSubName}
+                            </p>
 
+                            <h2 className="text-xl font-medium text-[#202435]">
+                                {item?.blogName}
+                            </h2>
+
+                            <div className="flex items-center mt-2 text-sm gap-2">
+                                <p>{item?.BlogDate}</p>
+                                <p>3 Comments</p>
                             </div>
 
                         </div>
