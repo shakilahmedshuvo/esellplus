@@ -2,7 +2,7 @@ import { FaStar } from "react-icons/fa6";
 
 const SingleDealProductCard = ({ item }) => {
     const { percentage, img, recommended, name, rating, ratingGiven, inStock, beforePrice, price } = item;
-    
+
     return (
         <div
             className="border border-gray-100 group group/item cursor-pointer hover:shadow-xl duration-100">
@@ -43,36 +43,38 @@ const SingleDealProductCard = ({ item }) => {
                     {name}
                 </h2>
 
+                {/* 
+                <div className="flex items-center justify-between"> */}
+                {/* rating section start */}
 
-                <div className="flex items-center justify-between">
-                    {/* rating section start */}
-                    <div className="my-2 text-xs flex items-center">
+                <p
+                    className={`${inStock ? 'text-green-500 text-xs font-medium my-1' : 'text-red-500 text-xs font-medium my-1'}`}>
+                    {
+                        inStock ?
+                            'In Stock' : 'Out of Stock'
+                    }
+                </p>
+                <div className="my-2 text-xs flex items-center">
 
-                        <div className="text-[#FFCD00] flex items-center">
-                            {
-                                rating?.map((one, index) => (
-                                    <p key={index + 1}>
-                                        <FaStar />
-                                    </p>
-                                ))
-                            }
-                        </div>
-
-                        <p className="ms-2 text-gray-500">
-                            ({ratingGiven})
-                        </p>
-                    </div>
-                    {/* rating section end */}
-
-                    <p
-                        className={`${inStock ? 'text-green-500 text-xs font-medium my-1' : 'text-red-500 text-xs font-medium my-1'}`}>
+                    <div className="text-[#FFCD00] flex items-center">
                         {
-                            inStock ?
-                                'In Stock' : 'Out of Stock'
+                            rating?.map((one, index) => (
+                                <p key={index + 1}>
+                                    <FaStar />
+                                </p>
+                            ))
                         }
-                    </p>
+                    </div>
 
+                    <p className="ms-2 text-gray-500">
+                        ({ratingGiven})
+                    </p>
                 </div>
+                {/* rating section end */}
+
+
+
+                {/* </div> */}
 
 
                 <div className="flex items-center font-semibold mt-2">
@@ -85,7 +87,7 @@ const SingleDealProductCard = ({ item }) => {
                         -
                     </p>
 
-                    <h2 className="text-[#D61949] text-xl">
+                    <h2 className="text-[#D61949] text-xl font-medium">
                         ${price}
                     </h2>
 

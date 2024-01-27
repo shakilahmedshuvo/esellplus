@@ -5,6 +5,7 @@ import Category from "../Category/Category";
 import DealOfTheWeek from "../DealOfTheWeek/DealOfTheWeek";
 import PictureSection from "../PictureSection/PictureSection";
 import PictureSectionTwo from "../PictureSection/PictureSectionTwo";
+import ProductSection from "../ProductSection/ProductSection";
 import Save from "../Save/Save";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <PictureSection />
             <BestSeller />
             <Save />
+            <ProductSection />
             <PictureSectionTwo />
             <Blog />
         </>
