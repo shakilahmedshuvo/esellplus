@@ -10,10 +10,19 @@ const BestSeller = () => {
     }, []);
 
     return (
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto my-16">
 
-            <div></div>
+            <>
+                <h2 className="text-xl font-semibold">
+                    BEST SELLERS
+                </h2>
+                <p className="mb-3 text-[10px]">
+                    Do not miss the current offers until the end of March.
+                </p>
+            </>
+
             <div className="grid grid-cols-5">
+
                 {/* map section start */}
                 {
                     data.slice(7, 12).map(item => (
@@ -24,6 +33,7 @@ const BestSeller = () => {
                     ))
                 }
                 {/* map section end */}
+
             </div>
         </div>
     );
