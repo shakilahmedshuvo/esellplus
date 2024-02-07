@@ -25,7 +25,7 @@ const BestSeller = () => {
 
                 {/* map section start */}
                 {
-                    data.slice(7, 12).map(item => (
+                    data.slice(6, 11).map(item => (
                         <SingleDealProductCard
                             key={item.id}
                             item={item}
