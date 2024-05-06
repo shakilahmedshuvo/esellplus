@@ -14,7 +14,6 @@ const PictureSectionTwo = () => {
 
     return (
         <div className="max-w-7xl mx-auto grid grid-cols-3 gap-8 my-8">
-
             {/* map section start */}
             {
                 item?.map((item) => (

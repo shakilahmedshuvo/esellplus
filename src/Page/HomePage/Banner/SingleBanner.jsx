@@ -12,7 +12,6 @@ const SingleBanner = ({ slider }) => {
                 alt="" />
 
             <div className="absolute top-0 right-0 mt-20 mr-40">
-
                 <div className="flex justify-end">
                     <p className="bg-gradient-to-r from-[#93D0C9] text-green-800 px-4 rounded-full text-lg font-medium">
                         {offer}
@@ -45,8 +44,6 @@ const SingleBanner = ({ slider }) => {
                 </div>
 
             </div>
-
-
         </div>
     );
 };

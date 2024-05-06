@@ -35,9 +35,7 @@ const Category = () => {
             </Link>
 
             <div className="col-span-10 grid grid-cols-4">
-
                 <div className="grid grid-row-2">
-
                     <Link
                         to={"/"}
                         className="grid grid-cols-3 px-6 pt-7 border h-36">
@@ -60,7 +58,6 @@ const Category = () => {
                     <Link
                         to={"/"}
                         className="grid grid-cols-3 px-6 pt-7 border h-36">
-
                         <img
                             src={jeans}
                             alt="" />
@@ -77,7 +74,6 @@ const Category = () => {
                 </div>
 
                 <div className="grid grid-row-2">
-
                     <Link
                         to={"/"}
                         className="grid grid-cols-3 px-6 pt-7 border h-36">

@@ -10,20 +10,17 @@ const MiddleNavbar = () => {
 
             {/* logo section start */}
             <div className="col-span-2 cursor-pointer">
-                <div className="flex">
 
-                    {/* <div className="flex"> */}
+                <div className="flex">
                     <img
                         className="h-[70%] mt-2"
                         src={logo}
                         alt="" />
-                    {/* </div> */}
 
                     <div>
                         <h2
                             className="text-2xl font-semibold text-[#223994] flex items-center justify-center pt-8 pl-3">
                             ESEllPLUS
-                            {/* ESellPlus */}
                         </h2>
 
                     </div>
@@ -106,13 +103,10 @@ const MiddleNavbar = () => {
                         className="relative right-4 bottom-4 text-white bg-[#EA2B0F] p-2 rounded-full w-6 h-6 flex items-center justify-center text-xs">
                         0
                     </p>
-
                 </div>
                 {/* user cart section end */}
-
             </div>
             {/* user section end */}
-
         </div>
     );
 };

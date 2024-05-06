@@ -37,17 +37,17 @@ const BottomNavbar = () => {
 
                             <Link to={"/"}
                                 className="my-2">
-                                Men's Clothing
+                                Mens Clothing
                             </Link>
 
                             <Link to={"/"}
                                 className="my-2">
-                                Women's Clothing
+                                Womans Clothing
                             </Link>
 
                             <Link to={"/"}
                                 className="my-2">
-                                Kids' Clothing
+                                Kids Clothing
                             </Link>
 
                             <hr className="my-3" />
@@ -74,7 +74,6 @@ const BottomNavbar = () => {
 
 
             <div className="col-span-9 flex justify-end items-center text-sm">
-
                 <Link
                     to={"/"}>
                     <div className="dropdown dropdown-hover">
@@ -234,17 +233,17 @@ const BottomNavbar = () => {
 
                 <div
                     className="w-fit hover:bg-[#F0FAFF] hover:text-[#2BBEF9] py-3 px-4 mx-1 rounded-full text-sm duration-500 cursor-pointer font-medium text-gray-600">
-                    Men's Clothing
+                    Mens Clothing
                 </div>
 
                 <div
                     className="w-fit hover:bg-[#F0FAFF] hover:text-[#2BBEF9] py-3 px-4 mx-1 rounded-full text-sm duration-500 cursor-pointer font-medium text-gray-600">
-                    Women's Clothing
+                    Womans Clothing
                 </div>
 
                 <div
                     className="w-fit hover:bg-[#F0FAFF] hover:text-[#2BBEF9] py-3 px-4 mx-1 rounded-full text-sm duration-500 cursor-pointer font-medium text-gray-600">
-                    Kids' Clothing
+                    Kids Clothing
                 </div>
 
                 <div

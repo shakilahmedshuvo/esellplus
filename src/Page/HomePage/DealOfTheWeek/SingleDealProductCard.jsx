@@ -55,7 +55,6 @@ const SingleDealProductCard = ({ item }) => {
                     }
                 </p>
                 <div className="my-2 text-xs flex items-center">
-
                     <div className="text-[#FFCD00] flex items-center">
                         {
                             rating?.map((one, index) => (
@@ -71,11 +70,6 @@ const SingleDealProductCard = ({ item }) => {
                     </p>
                 </div>
                 {/* rating section end */}
-
-
-
-                {/* </div> */}
-
 
                 <div className="flex items-center font-semibold mt-2">
 
@@ -98,7 +92,6 @@ const SingleDealProductCard = ({ item }) => {
                     className="bg-[#233A95] text-white w-full text-center text-xs py-2 rounded-full mt-5 mb-4 opacity-0 group-hover:opacity-100 duration-500">
                     Add to the cart
                 </button>
-
 
             </div>
             {/* details section end */}

@@ -12,7 +12,6 @@ const ProductSection = () => {
     return (
         <div className="max-w-7xl mx-auto mb-8">
             <div className="grid lg:grid-cols-5">
-
                 {/* map section start */}
                 {
                     data.slice(11, 21).map(item => (

@@ -22,7 +22,6 @@ const BestSeller = () => {
             </>
 
             <div className="grid grid-cols-5">
-
                 {/* map section start */}
                 {
                     data.slice(6, 11).map(item => (
@@ -33,7 +32,6 @@ const BestSeller = () => {
                     ))
                 }
                 {/* map section end */}
-
             </div>
         </div>
     );
